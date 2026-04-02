@@ -1,0 +1,16 @@
+# Keys (sensitive)
+dovekey
+dovekey.pub
+
+# Terraform state (sensitive)
+terraform.tfstate
+terraform.tfstate.*
+
+# Terraform folders
+.terraform/
+
+# Lock file (optional: keep if you want reproducible builds)
+.terraform.lock.hcl
+
+# Optional: crash logs
+crash.log
